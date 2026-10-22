@@ -1,0 +1,77 @@
+{
+ "verdict": "PASS",
+ "reason": "",
+ "debug_failfast": false,
+ "asserts_total": 19,
+ "asserts": [
+  {
+   "cmd": "@assert Game.mode === 'playing'",
+   "ok": true,
+   "got": "true"
+  },
+  {
+   "cmd": "@eval window.dispatchEvent(new KeyboardEvent('keydown', {code:'ArrowLeft', key:'ArrowLeft'}))  (裸表达式)",
+   "ok": true,
+   "got": true
+  },
+  {
+   "cmd": "@eval window.dispatchEvent(new KeyboardEvent('keyup', {code:'ArrowLeft'}))  (裸表达式)",
+   "ok": true,
+   "got": true
+  },
+  {
+   "cmd": "@assert document.getElementById('hud-lives').textContent.indexOf('LIVES') === 0",
+   "ok": true,
+   "got": "true"
+  },
+  {
+   "cmd": "@assert document.getElementById('hud-wave').textContent.indexOf('WAVE') === 0",
+   "ok": true,
+   "got": "true"
+  },
+  {
+   "cmd": "@assert Game.mode === 'playing' || Game.mode === 'gameover'",
+   "ok": true,
+   "got": "true"
+  },
+  {
+   "cmd": "@eval window.__probe.canvasOk = true  (裸表达式)",
+   "ok": true,
+   "got": true
+  },
+  {
+   "cmd": "@assertVisible #overlay-pause",
+   "ok": true,
+   "got": "可见"
+  },
+  {
+   "cmd": "@assert Game.mode === 'paused'",
+   "ok": true,
+   "got": "true"
+  },
+  {
+   "cmd": "@assertHidden #overlay-pause",
+   "ok": true,
+   "got": "不可见"
+  },
+  {
+   "cmd": "@assert Game.mode === 'playing'",
+   "ok": true,
+   "got": "true"
+  },
+  {
+   "cmd": "@eval window.__probe.done = true  (裸表达式)",
+   "ok": true,
+   "got": true
+  }
+ ],
+ "console_errors": [],
+ "page_errors": [],
+ "screenshot": "",
+ "traps": [],
+ "laws": null,
+ "auto_laws": [],
+ "crash_fp": null,
+ "profile": null,
+ "resident": true
+}

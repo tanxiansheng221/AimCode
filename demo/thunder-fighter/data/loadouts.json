@@ -1,0 +1,35 @@
+[
+  {
+    "id": "loadout_mvhgy8aa_cfkf_5",
+    "pilotId": "pilot_mvhgy80l_fcvd_1",
+    "weapon": "laser",
+    "weaponLevel": 3,
+    "speed": 5,
+    "shield": 0,
+    "special": "none",
+    "createdAt": "2026-10-21T02:04:18.418Z",
+    "updatedAt": "2026-10-21T02:04:18.419Z"
+  },
+  {
+    "id": "loadout_mvhgyn1o_u3u5_5",
+    "pilotId": "pilot_mvhgympz_blj7_1",
+    "weapon": "laser",
+    "weaponLevel": 3,
+    "speed": 5,
+    "shield": 0,
+    "special": "none",
+    "createdAt": "2026-10-21T02:04:37.548Z",
+    "updatedAt": "2026-10-21T02:04:37.549Z"
+  },
+  {
+    "id": "loadout_mvhgyq3q_lqqs_11",
+    "pilotId": "pilot_mvhgypss_wlrr_7",
+    "weapon": "laser",
+    "weaponLevel": 3,
+    "speed": 5,
+    "shield": 0,
+    "special": "none",
+    "createdAt": "2026-10-21T02:04:41.510Z",
+    "updatedAt": "2026-10-21T02:04:41.512Z"
+  }
+]

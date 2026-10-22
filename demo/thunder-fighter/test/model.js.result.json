@@ -1,0 +1,34 @@
+{
+ "verdict": "PASS",
+ "states": 4361,
+ "depth": 3,
+ "edges": 4360,
+ "exhausted": false,
+ "laws": [
+  "enemies count>=0",
+  "loadouts count>=0",
+  "notifications count>=0",
+  "pilots count>=0",
+  "replays count>=0",
+  "reviews count>=0",
+  "runs count>=0",
+  "scores count>=0"
+ ],
+ "lawCoverage": {
+  "enemies count>=0": 4361,
+  "loadouts count>=0": 4361,
+  "notifications count>=0": 4361,
+  "pilots count>=0": 4361,
+  "replays count>=0": 4361,
+  "reviews count>=0": 4361,
+  "runs count>=0": 4361,
+  "scores count>=0": 4361
+ },
+ "deadActions": [],
+ "shallow": false,
+ "minStates": 8,
+ "reason": "穷举至 depth 上限 3: 4361 个可达状态 / 4360 条转移全部满足 8 条不变量",
+ "tool": "modelcheck.js",
+ "model": "e:\\exp\\S1_A1\\test\\model.js",
+ "duration_ms": 509
+}

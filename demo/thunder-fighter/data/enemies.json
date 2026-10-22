@@ -1,0 +1,102 @@
+[
+  {
+    "id": "enemy_scout_1",
+    "name": "Void Scout",
+    "hp": 30,
+    "speed": 3.5,
+    "pattern": "straight",
+    "tier": "scout",
+    "scoreValue": 100,
+    "color": "#00ffcc"
+  },
+  {
+    "id": "enemy_scout_2",
+    "name": "Blink Drone",
+    "hp": 25,
+    "speed": 4.2,
+    "pattern": "zigzag",
+    "tier": "scout",
+    "scoreValue": 120,
+    "color": "#00ffcc"
+  },
+  {
+    "id": "enemy_fighter_1",
+    "name": "Nebula Fighter",
+    "hp": 80,
+    "speed": 2.5,
+    "pattern": "wave",
+    "tier": "fighter",
+    "scoreValue": 250,
+    "color": "#ff00ff"
+  },
+  {
+    "id": "enemy_fighter_2",
+    "name": "Plasma Interceptor",
+    "hp": 70,
+    "speed": 3,
+    "pattern": "chase",
+    "tier": "fighter",
+    "scoreValue": 280,
+    "color": "#ff00ff"
+  },
+  {
+    "id": "enemy_heavy_1",
+    "name": "Iron Cruiser",
+    "hp": 200,
+    "speed": 1.2,
+    "pattern": "straight",
+    "tier": "heavy",
+    "scoreValue": 500,
+    "color": "#ff4444"
+  },
+  {
+    "id": "enemy_heavy_2",
+    "name": "Aegis Tank",
+    "hp": 250,
+    "speed": 1,
+    "pattern": "zigzag",
+    "tier": "heavy",
+    "scoreValue": 600,
+    "color": "#ff4444"
+  },
+  {
+    "id": "enemy_elite_1",
+    "name": "Star Destroyer",
+    "hp": 500,
+    "speed": 1.5,
+    "pattern": "wave",
+    "tier": "elite",
+    "scoreValue": 1200,
+    "color": "#ffaa00"
+  },
+  {
+    "id": "enemy_elite_2",
+    "name": "Nexus Hunter",
+    "hp": 450,
+    "speed": 1.8,
+    "pattern": "chase",
+    "tier": "elite",
+    "scoreValue": 1400,
+    "color": "#ffaa00"
+  },
+  {
+    "id": "enemy_boss_1",
+    "name": "Oblivion Titan",
+    "hp": 2000,
+    "speed": 0.8,
+    "pattern": "boss",
+    "tier": "boss",
+    "scoreValue": 5000,
+    "color": "#ff0000"
+  },
+  {
+    "id": "enemy_boss_2",
+    "name": "Abyssal Overlord",
+    "hp": 3000,
+    "speed": 0.6,
+    "pattern": "boss",
+    "tier": "boss",
+    "scoreValue": 8000,
+    "color": "#ff0000"
+  }
+]

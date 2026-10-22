@@ -1,0 +1,38 @@
+[
+  {
+    "id": "score_mvhgy89u_6gml_4",
+    "pilotId": "pilot_mvhgy80l_fcvd_1",
+    "runId": "run_mvhgy89l_mk4t_2",
+    "callsign": "Ace57821",
+    "score": 1500,
+    "waveReached": 3,
+    "createdAt": "2026-10-21T02:04:18.398Z"
+  },
+  {
+    "id": "score_mvhgyn16_n14p_4",
+    "pilotId": "pilot_mvhgympz_blj7_1",
+    "runId": "run_mvhgyn0v_jtab_2",
+    "callsign": "Ace76931",
+    "score": 1500,
+    "waveReached": 3,
+    "createdAt": "2026-10-21T02:04:37.528Z"
+  },
+  {
+    "id": "score_mvhgyq2w_kc3n_10",
+    "pilotId": "pilot_mvhgypss_wlrr_7",
+    "runId": "run_mvhgyq2r_msqq_8",
+    "callsign": "Ace80890",
+    "score": 1500,
+    "waveReached": 3,
+    "createdAt": "2026-10-21T02:04:41.479Z"
+  },
+  {
+    "id": "score_mvhh9z2h_6jyb_16",
+    "pilotId": "pilot_mvhh8znq_phqw_15",
+    "callsign": "123456",
+    "runId": null,
+    "score": 5200,
+    "waveReached": 0,
+    "createdAt": "2026-10-21T02:13:26.345Z"
+  }
+]

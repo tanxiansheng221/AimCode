@@ -1,0 +1,83 @@
+[
+  {
+    "id": "pilot_mvhgsqgc_bsoj_1",
+    "callsign": "Ace1903",
+    "passwordHash": "4ef10522a193aa078cbddf36c3cd83e8$1c5411d8410ad922414dc52e751535175a08904ae796382495dcf098d4432a8de4c555ccb558d18468991714c4bc1caffe3c627a4ac6e5e8419533853f070151",
+    "createdAt": "2026-10-21T02:00:02.164Z",
+    "runsCompleted": 0,
+    "totalScore": 0,
+    "highestWave": 0
+  },
+  {
+    "id": "pilot_mvhgttrc_zr0s_1",
+    "callsign": "Ace52759",
+    "passwordHash": "69a4b093eb7730054b61310f55f5df89$aca57433d2918e5ecd65ae696eea84c4502224973f81dad19589dee9df79f2f8d8f85f4e4c627c721697cee9ce0f3b2a355b6639645addac398f1832edc47820",
+    "createdAt": "2026-10-21T02:00:53.134Z",
+    "runsCompleted": 0,
+    "totalScore": 0,
+    "highestWave": 0
+  },
+  {
+    "id": "pilot_mvhgtws9_dnzv_1",
+    "callsign": "Ace56706",
+    "passwordHash": "665c17f7d0f499f899cf10705b4eaafe$310f172de0ca79d31889b15689537ed9b63058a77e80f87d86b2ae1c7fec497d98a731c4cbbbb946991e7c6bb4b57df3c8572b7d3e5dba82c4092b81bec3f3f9",
+    "createdAt": "2026-10-21T02:00:57.218Z",
+    "runsCompleted": 0,
+    "totalScore": 0,
+    "highestWave": 0
+  },
+  {
+    "id": "pilot_mvhgy80l_fcvd_1",
+    "callsign": "Ace57821",
+    "passwordHash": "e2e4515ae2852ef231e95288484e9b11$db6a921c0d202ca319d1e8e28f310c534c145d90e287f125ac92ddf9ecc625ecc4094b985be7bec1c17ae07e9480f62472299f58daf5f606fca9adfcd2e6ec2f",
+    "createdAt": "2026-10-21T02:04:18.233Z",
+    "runsCompleted": 1,
+    "totalScore": 1500,
+    "highestWave": 3
+  },
+  {
+    "id": "pilot_mvhgympz_blj7_1",
+    "callsign": "Ace76931",
+    "passwordHash": "6508cbbc54df0a5c8332c9b94b77bc91$1d7c53f8ea1783fc80b9527d1afec2ecb48aa90b1d87527587e5b53ad69eff090fe81d6871b0f9f7c77ad1ef06a2b3272d8346d1a8f94310c9e21526442db914",
+    "createdAt": "2026-10-21T02:04:37.326Z",
+    "runsCompleted": 1,
+    "totalScore": 1500,
+    "highestWave": 3
+  },
+  {
+    "id": "pilot_mvhgypss_wlrr_7",
+    "callsign": "Ace80890",
+    "passwordHash": "4b2016ec2a8849780bd4711f391b68c2$e4f7cfaf6861d271cf320c14260fd5c6ac77af7f8f5138b7b1edce58d7fa45616433edaf02f79d52632f4548ed42ee44a7b30825ff964de324ac3b2afeeac5a6",
+    "createdAt": "2026-10-21T02:04:41.278Z",
+    "runsCompleted": 1,
+    "totalScore": 1500,
+    "highestWave": 3
+  },
+  {
+    "id": "pilot_mvhh53nl_j22f_13",
+    "callsign": "probemvhh53b1",
+    "passwordHash": "532633b4719bc6014318f7068c4c0567$ed9167ae473d99780d9c97cd4ba65a86fa1467e8acd26401077cb99ff9159a4e6281845fdc7782492f294f4e4273d6273f5f427dd4ff6223c53ba92514b6256b",
+    "createdAt": "2026-10-21T02:09:39.203Z",
+    "runsCompleted": 0,
+    "totalScore": 0,
+    "highestWave": 0
+  },
+  {
+    "id": "pilot_mvhh5gnl_j8ll_14",
+    "callsign": "probemvhh5gg3",
+    "passwordHash": "34730ba3b9cca13a03612c4e1c229280$55f850e849d62fd7e0f09751ee2cc5efd138d5b084f5b273f5f3a719f56c44a043277164e61d32e81fee1f425493e95b7e3df552f8f1baabc48e90d6f3a1f1bc",
+    "createdAt": "2026-10-21T02:09:56.306Z",
+    "runsCompleted": 0,
+    "totalScore": 0,
+    "highestWave": 0
+  },
+  {
+    "id": "pilot_mvhh8znq_phqw_15",
+    "callsign": "123456",
+    "passwordHash": "b06de4191ce946086f569deb27632b27$7324bc8ba9e87e551a9c48c17a69e02925b6d88f3dfec01719b3016a1fad25824c2fb434c7120244359f337cca5fd414e793b0c883b74fd7c8688144bf1e0b0d",
+    "createdAt": "2026-10-21T02:12:40.613Z",
+    "runsCompleted": 0,
+    "totalScore": 0,
+    "highestWave": 0
+  }
+]

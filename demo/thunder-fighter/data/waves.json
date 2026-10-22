@@ -1,0 +1,172 @@
+[
+  {
+    "id": "wave_1",
+    "number": 1,
+    "formation": "line",
+    "enemyMix": [
+      {
+        "enemyId": "enemy_scout_1",
+        "count": 5
+      }
+    ],
+    "spawnIntervalMs": 2000,
+    "difficulty": 1
+  },
+  {
+    "id": "wave_2",
+    "number": 2,
+    "formation": "vshape",
+    "enemyMix": [
+      {
+        "enemyId": "enemy_scout_1",
+        "count": 4
+      },
+      {
+        "enemyId": "enemy_scout_2",
+        "count": 3
+      }
+    ],
+    "spawnIntervalMs": 1800,
+    "difficulty": 1.2
+  },
+  {
+    "id": "wave_3",
+    "number": 3,
+    "formation": "grid",
+    "enemyMix": [
+      {
+        "enemyId": "enemy_fighter_1",
+        "count": 4
+      },
+      {
+        "enemyId": "enemy_scout_2",
+        "count": 4
+      }
+    ],
+    "spawnIntervalMs": 1600,
+    "difficulty": 1.5
+  },
+  {
+    "id": "wave_4",
+    "number": 4,
+    "formation": "diamond",
+    "enemyMix": [
+      {
+        "enemyId": "enemy_fighter_1",
+        "count": 5
+      },
+      {
+        "enemyId": "enemy_fighter_2",
+        "count": 3
+      }
+    ],
+    "spawnIntervalMs": 1500,
+    "difficulty": 1.8
+  },
+  {
+    "id": "wave_5",
+    "number": 5,
+    "formation": "line",
+    "enemyMix": [
+      {
+        "enemyId": "enemy_heavy_1",
+        "count": 3
+      },
+      {
+        "enemyId": "enemy_fighter_1",
+        "count": 4
+      }
+    ],
+    "spawnIntervalMs": 1400,
+    "difficulty": 2.2
+  },
+  {
+    "id": "wave_6",
+    "number": 6,
+    "formation": "vshape",
+    "enemyMix": [
+      {
+        "enemyId": "enemy_heavy_1",
+        "count": 4
+      },
+      {
+        "enemyId": "enemy_heavy_2",
+        "count": 2
+      }
+    ],
+    "spawnIntervalMs": 1300,
+    "difficulty": 2.6
+  },
+  {
+    "id": "wave_7",
+    "number": 7,
+    "formation": "grid",
+    "enemyMix": [
+      {
+        "enemyId": "enemy_elite_1",
+        "count": 3
+      },
+      {
+        "enemyId": "enemy_heavy_2",
+        "count": 4
+      }
+    ],
+    "spawnIntervalMs": 1200,
+    "difficulty": 3.2
+  },
+  {
+    "id": "wave_8",
+    "number": 8,
+    "formation": "diamond",
+    "enemyMix": [
+      {
+        "enemyId": "enemy_elite_1",
+        "count": 4
+      },
+      {
+        "enemyId": "enemy_elite_2",
+        "count": 2
+      }
+    ],
+    "spawnIntervalMs": 1100,
+    "difficulty": 3.8
+  },
+  {
+    "id": "wave_9",
+    "number": 9,
+    "formation": "boss",
+    "enemyMix": [
+      {
+        "enemyId": "enemy_boss_1",
+        "count": 1
+      },
+      {
+        "enemyId": "enemy_elite_2",
+        "count": 6
+      }
+    ],
+    "spawnIntervalMs": 1000,
+    "difficulty": 4.5
+  },
+  {
+    "id": "wave_10",
+    "number": 10,
+    "formation": "boss",
+    "enemyMix": [
+      {
+        "enemyId": "enemy_boss_2",
+        "count": 1
+      },
+      {
+        "enemyId": "enemy_boss_1",
+        "count": 1
+      },
+      {
+        "enemyId": "enemy_elite_1",
+        "count": 6
+      }
+    ],
+    "spawnIntervalMs": 900,
+    "difficulty": 6
+  }
+]

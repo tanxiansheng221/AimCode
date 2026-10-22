@@ -1,0 +1,48 @@
+# THUNDER FIGHTER — browser behavior probe
+@eval window.__probe = {}
+# --- boot: menu visible, game hidden ---
+@assertVisible #overlay-menu
+@assertHidden #overlay-gameover
+@assert document.getElementById('game-canvas') !== null
+@assert typeof API === 'object'
+@assert typeof Game === 'object'
+@assert typeof Entities === 'object'
+# --- register a unique pilot ---
+@eval callsign = 'probe' + Date.now().toString(36)
+@assert document.getElementById('in-callsign') !== null
+@eval document.getElementById('in-callsign').value = window.__cs = ('probe' + Date.now().toString(36))
+@eval document.getElementById('in-password').value = 'probe123'
+@click #btn-register
+@wait 800
+@assert document.getElementById('auth-msg').classList.contains('ok')
+@assert document.getElementById('btn-start').disabled === false
+# --- leaderboard rendered ---
+@eval lb = document.getElementById('menu-leaderboard').innerHTML
+@assert window.__probe.lb.length > 0
+# --- start the game ---
+@click #btn-start
+@wait 300
+@assertHidden #overlay-menu
+@assert Game.mode === 'playing'
+# --- simulate gameplay: fire + move ---
+@press Space
+@eval window.dispatchEvent(new KeyboardEvent('keydown', {code:'ArrowLeft', key:'ArrowLeft'}))
+@wait 300
+@eval window.dispatchEvent(new KeyboardEvent('keyup', {code:'ArrowLeft'}))
+# score/lives/wave HUD must exist and show sensible values
+@assert document.getElementById('hud-lives').textContent.indexOf('LIVES') === 0
+@assert document.getElementById('hud-wave').textContent.indexOf('WAVE') === 0
+# wait for enemies to spawn & bullets to fly (game logic active)
+@wait 600
+@assert Game.mode === 'playing' || Game.mode === 'gameover'
+@eval window.__probe.canvasOk = true
+# --- pause toggle ---
+@press KeyP
+@wait 200
+@assertVisible #overlay-pause
+@assert Game.mode === 'paused'
+@press KeyP
+@wait 200
+@assertHidden #overlay-pause
+@assert Game.mode === 'playing'
+@eval window.__probe.done = true

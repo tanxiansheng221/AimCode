@@ -1,0 +1,8 @@
+{
+ "at": "2026-10-21T02:10:50.315Z",
+ "verdict": "RELEASED",
+ "rounds": 75,
+ "filesChanged": 81,
+ "gatesFired": 0,
+ "evidence": "probe PASS（.result.json）"
+}
